@@ -11,7 +11,7 @@ CLEAR	AND R0, R0, #0  ;Clear all the registers
 		AND R6, R0, #0
 	
 FIRST	LEA R0 PROMPT1	;Prompt the user to type in their first number
-		PUTS			;Display the input value back to the user
+		PUTS			;Display the prompt value back to the user
 	
 LOOP1
 QCHECK1	GETC 			;Recieve and input from the user
